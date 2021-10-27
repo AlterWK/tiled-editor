@@ -3,14 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vue-cli-service electron:serve",
+    "build": "vue-cli-service electron:build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "electron": "^15.3.0",
     "vue": "^3.0.0",
     "vue-class-component": "^8.0.0-0",
+    "vue-cli-plugin-electron-builder": "^2.1.1",
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
